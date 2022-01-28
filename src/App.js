@@ -23,7 +23,7 @@ function App() {
           <button onClick={() => setUnicornSize(unicornSize - 1)}>Dragon hit Unicorn!</button>
         </div>
       </div>
-      <OpenSign />
+      <OpenSign isOpen={isOpen} />
       <div className="open-buttons">
         <button onClick={() => setIsOpen(true)} >Open the Zoo!</button>
         <button onClick={() => setIsOpen(false)}>Close the Zoo</button>
