@@ -1,0 +1,13 @@
+.open-sign {
+    border: 25px dotted red;
+    color: rgb(4, 102, 141);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    font-size: 3em;
+    margin: 20px 350px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(247, 208, 196)
+}
