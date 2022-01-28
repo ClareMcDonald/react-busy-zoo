@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import './App.css';
+import OpenSign from './OpenSign';
 
 function App() {
 
   const [unicornSize, setUnicornSize] = useState(1);
   const [dragonSize, setDragonSize] = useState(1);
+
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <div className="App">
@@ -19,6 +22,11 @@ function App() {
           <button onClick={() => setDragonSize(dragonSize + 1)}>Dragon is drinking from the fire well. She is getting stronger!</button>
           <button onClick={() => setUnicornSize(unicornSize - 1)}>Dragon hit Unicorn!</button>
         </div>
+      </div>
+      <OpenSign />
+      <div className="open-buttons">
+        <button onClick={() => setIsOpen(true)} >Open the Zoo!</button>
+        <button onClick={() => setIsOpen(false)}>Close the Zoo</button>
       </div>
     </div>
   );
