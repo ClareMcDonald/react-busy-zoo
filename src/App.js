@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import './Fight.css';
 import OpenSign from './OpenSign';
 import Parade from './Parade';
 
