@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      <h2 className="title">A Busy Zoo</h2>
       <div className="fight">
         <div className="unicorn">
           <p style={{ fontSize: `${unicornSize}rem` }}>🦄</p>

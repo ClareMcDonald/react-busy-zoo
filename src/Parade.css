@@ -1,0 +1,10 @@
+.parade {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+}
+
+.animal-emoji {
+    padding: 5px;
+}
