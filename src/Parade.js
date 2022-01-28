@@ -1,7 +1,8 @@
 import React from 'react';
+import AnimalEmoji from './AnimalEmoji';
 
 export default function Parade({ animals }) {
   return <div className="parade">
-    {animals.map((anaimal, i) =>
-      <Animal key={`${animal}-${i}`} animal={animal} />)}</div>;
+    {animals.map((animal, i) =>
+      <AnimalEmoji key={`${animal}-${i}`} animalProp={animal} />)}</div>;
 }

@@ -32,7 +32,7 @@ function App() {
       < Parade animals={animals}/>
       <div className="parade-buttons">
         <button onClick={() => setAnimals([...animals, 'giraffe'])}>Add Giraffe</button>
-        <button onClick={() => setAnimals([...animals, 'tiger'])}>Add Tiger</button>
+        <button onClick={() => setAnimals([...animals, 'flamingo'])}>Add Flamingo</button>
         <button onClick={() => setAnimals([...animals, 'llama'])}>Add Llama</button>
       </div>
     </div>
